@@ -1,0 +1,122 @@
+
+.box
+{
+	width: 100%
+	height: 100%;
+	background-color: white;
+	border-bottom: solid #cccccc;
+}
+
+h1
+{
+	margin-top: 4px;
+	margin-left: 100px;
+	display: inline-block;
+	background-color: #4aaaa5;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.lista
+{
+	margin-right: 100px;
+	margin-top: 35px;
+	float: right;
+   list-style-type: none;
+   color: #DDD;
+}
+
+.boxSize
+{
+	background-image: url("../images/concrete.png");
+	height: 100%;
+	width: 100%;
+}
+
+.about
+{
+	width: 600px;
+	height: 400px;
+	background-color: white;
+	margin-top: 50px;
+	margin-left: 100px;
+	float: left;
+}
+
+.word
+{
+	margin-top: 0px;
+	display: inline-block;
+	background-color: white;
+	color: #4aaaa5;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+.aboutBox
+{
+
+	margin-left: 25px;
+	width: 550px;
+	border-bottom: solid #cccccc;
+}
+
+.connect
+{
+	width: 250px;
+	height: 175px;
+	background: white;
+	float: right;
+	margin-top: 50px;
+	margin-right: 50px;
+}
+
+.fotos
+{
+	margin-top: 20px;
+	margin-left: 15px;
+}
+
+.connectWord
+{
+	margin-top: 0px;
+	display: inline-block;
+	background-color: white;
+	color: #4aaaa5;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+p
+{
+	line-height: 1;
+	padding-top: 25px;
+	color: #DDD;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.profilePic
+{
+	float: left;
+	margin-left: 25px;
+	margin-right: 15px;
+	margin-top: 25px;
+}
+
+.footer
+{
+	clear: both;
+	color: #777777;
+	text-align: center;
+	background-color: #666666;
+	height: 65px;
+    width: 100%;
+    border-top: solid #4aaaa5;
+}

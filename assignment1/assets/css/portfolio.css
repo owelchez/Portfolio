@@ -1,0 +1,74 @@
+h1
+{
+	margin-top: 4px;
+	margin-left: 100px;
+	display: inline-block;
+	background-color: #4aaaa5;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.lista
+{
+	margin-right: 100px;
+	margin-top: 35px;
+	float: right;
+   list-style-type: none;
+   color: #DDD;
+}
+
+.boxSize
+{
+	background-image: url("../images/concrete.png");
+	height: 100%;
+	width: 100%;
+}
+
+.boxPortfolio
+{
+	width: 300px;
+	height: 400px;
+	background-color: white;
+}
+
+
+.connect
+{
+	width: 250px;
+	height: 175px;
+	background: white;
+	float: right;
+	margin-top: 50px;
+	margin-right: 50px;
+}
+
+.connectWord
+{
+	margin-top: 0px;
+	display: inline-block;
+	background-color: white;
+	color: #4aaaa5;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
