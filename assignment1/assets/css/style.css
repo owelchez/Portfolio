@@ -75,7 +75,7 @@ p
 .boxSize
 {
 	background-image: url("../images/concrete.png");
-	height: 100%;
+	position: relative;
 	width: 100%;
 }
 
@@ -202,8 +202,30 @@ p
 	height: 60px;
 }
 
-@media only screen and (max-width: 500px) {
-    body {
-        background-color: lightblue;
-    }
+@media only screen and (max-width: 980px) 
+{
+	body
+	{
+		background-color: #333;
+	}
+
+	.about
+	{
+		width: 960px;
+	}
+}
+
+@media only screen and (max-width: 768px) 
+{
+   
+}
+
+@media only screen and (max-width: 640px) 
+{
+   h1
+   {
+   	position: static;
+   }
+
+
 }
