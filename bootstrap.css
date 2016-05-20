@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  background-image: url("concrete.png");
+  background: #a52027;
   margin: 0;
 }
 article,
@@ -1096,7 +1096,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #fff;
+  background-color: #a52027;
 }
 input,
 button,
@@ -1618,6 +1618,7 @@ pre code {
   }
 }
 .container-fluid {
+  color: white;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -4506,7 +4507,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #4aaaa5;
+  background-color: #2f58a8;
   border-color: #e7e7e7;
 }
 .navbar-default .navbar-brand {
@@ -4969,13 +4970,13 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-  width: 600px;
+  
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
   margin-left: 60px;
-  color: #4aaaa5;
-  background-color: white;
+  color: white;
+  background-color: #2f58a8;
 }
 .jumbotron h1,
 .jumbotron .h1 {
