@@ -9,6 +9,11 @@
 	height: 100px;
 }
 
+.row
+{
+	height: 500px;
+}
+
 .navbar-right
 {
 	font-family: cursive;
