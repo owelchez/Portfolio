@@ -269,8 +269,56 @@ p
     clear: both;
 }
 
+@media screen and (max-width: 980)
+{
+	body
+	{
+		background-color: #333;
+	}
 
+	head
+	{
+		position: static;
+	}
 
+	.wrapper
+	{
+		width: 600px;
+	}
+}
 
+@media screen and (max-width: 768)
+{
+	body
+	{
+		background-color: #333;
+	}
 
+	head
+	{
+		position: static;
+	}
 
+	.wrapper
+	{
+		width: 600px;
+	}
+}
+
+@media screen and (max-width: 640)
+{
+	body
+	{
+		background-color: #333;
+	}
+
+	head
+	{
+		position: static;
+	}
+
+	.wrapper
+	{
+		width: 600px;
+	}
+}
