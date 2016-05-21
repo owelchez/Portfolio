@@ -4,12 +4,27 @@
 	padding-top: 10px;
 }
 
+.row1
+{
+	height: 100px;
+}
+
+.row
+{
+	background-color: #e0966e;
+}
+
 .navbar-right
 {
 	font-family: cursive;
 	margin-right: 30px;
 	margin-left: 10px;
 	clear: left;
+}
+
+.navbar-fixed-top
+{
+	padding-top: 15px;
 }
 
 .navbar-fixed-bottom
@@ -19,11 +34,36 @@
 
 }
 
+.connect
+{
+	margin-right: 30px;
+	width: 260px;
+	height: 180px;
+	border-radius: 4px;
+	border: 2px solid;
+}
+
+.fotos
+{
+	padding: 15px;
+}
+
+hr
+{
+	width: 200px;
+}
+
 
 h1
 {
 	font-family: cursive;
 	font-size: 15px;
+}
+
+h3
+{
+	color: #337ab7;
+	font-family: cursive;
 }
 
 h6
