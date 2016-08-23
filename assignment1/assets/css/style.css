@@ -1,10 +1,27 @@
 
 .box
 {
-	width: 100%
-	height: 100%;
-	background-color: white;
-	border-bottom: solid #cccccc;
+	position: static;
+}
+
+hr
+{
+	position: initial;
+	border: none;
+	width: 100%;
+	height: 3px;
+	background-color: #cccccc;
+	clear: both;
+}
+
+#listaBox
+{
+	color: white;
+}
+
+#topBorder
+{
+	
 }
 
 #container 
@@ -89,11 +106,6 @@
 	height: 60px;
 }
 
-hr
-{
-	width: 180px;
-}
-
 .nombre
 {
 	color: #DDD;
@@ -124,11 +136,6 @@ h2
 	text-align: center;
 	text-decoration: none;
 	font-size: 25px;
-}
-
-hr
-{
-	width: 250px;
 }
 
 #hr2
@@ -164,15 +171,15 @@ hr
 	margin-right: 100px;
 	margin-top: 35px;
 	float: right;
-   list-style-type: none;
-   color: #DDD;
+	list-style-type: none;
+	color: #DDD;
+	float: right;
 }
 
 .boxSize
 {
 	background-image: url("../images/concrete.png");
-	height: 100%;
-	width: 100%;
+	clear: initial;
 }
 
 .boxSize1
@@ -326,11 +333,17 @@ p
 /*****************************************/
 
 @media (max-width: 768px) {
+hr
+{
+	width: 100%;
+}
+
 .about 
 {
 	height: 400px;
 	width: 600px;
 }
+
 .word
 {
 	width: 200px;
@@ -357,6 +370,29 @@ p
 /*****************************************/
 
 @media (max-width: 640px) {
+
+.box
+{
+	background-color: #4aaaa5;
+
+}
+
+h1
+{
+	font-weight: bold;
+	background-color: #4aaaa5;
+	color: white;
+	padding: 15px 32px;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+#listaBox
+{
+
+
+}
+
 .about 
 {
 	height: 400px;
